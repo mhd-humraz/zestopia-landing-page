@@ -2,9 +2,10 @@ import { MapPin, Navigation } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const LocationSection = () => {
+  const coordinates = { lat: 10.07, lng: 76.38 };
   const collegeName = "MES M.K. Mackar Pillay College for Advanced Studies, Edathala";
-  const googleMapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(collegeName)}`;
-  const embedUrl = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3928.6!2d76.3!3d10.05!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTDCsDAzJzAwLjAiTiA3NsKwMTgnMDAuMCJF!5e0!3m2!1sen!2sin!4v1699000000000!5m2!1sen!2sin";
+  const googleMapsUrl = `https://www.google.com/maps/search/?api=1&query=${coordinates.lat},${coordinates.lng}`;
+  const embedUrl = `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3928.6!2d${coordinates.lng}!3d${coordinates.lat}!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTDCsDA0JzEyLjAiTiA3NsKwMjInNDguMCJF!5e0!3m2!1sen!2sin!4v1699000000000!5m2!1sen!2sin`;
 
   return (
     <section id="location" className="py-24 md:py-32 relative">
