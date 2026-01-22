@@ -1,4 +1,5 @@
-import { GraduationCap, Instagram, Facebook, Twitter, Mail } from "lucide-react";
+import { Instagram, Facebook, Twitter, Mail } from "lucide-react";
+import collegeLogo from "@/assets/mescas-logo.png";
 
 const Footer = () => {
   return (
@@ -7,9 +8,11 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row items-center justify-between gap-8">
           {/* Logo and college info */}
           <div className="flex items-center gap-4">
-            <div className="w-14 h-14 rounded-full gradient-primary flex items-center justify-center box-glow-primary">
-              <GraduationCap className="w-8 h-8 text-primary-foreground" />
-            </div>
+            <img 
+              src={collegeLogo} 
+              alt="MES College Logo" 
+              className="w-14 h-14 rounded-full bg-white p-1 object-contain"
+            />
             <div className="text-center md:text-left">
               <h3 className="font-display text-xl font-bold gradient-text">
                 ZESTOPIA
