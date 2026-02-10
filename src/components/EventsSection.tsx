@@ -8,7 +8,8 @@ const events = [
     time: "10:00 AM - 1:00 PM",
     venue: "Computer Lab 1 & 2",
     teamSize: "Individual / Team of 2",
-    registrationLink: "https://forms.google.com/code-quest"
+    registrationLink: "https://forms.google.com/code-quest",
+    icon: "💻"
   },
   {
     name: "Tech Talks",
@@ -17,7 +18,8 @@ const events = [
     time: "2:00 PM - 5:00 PM",
     venue: "Seminar Hall",
     teamSize: "Individual",
-    registrationLink: "https://forms.google.com/tech-talks"
+    registrationLink: "https://forms.google.com/tech-talks",
+    icon: "🎤"
   },
   {
     name: "Design Duel",
@@ -26,7 +28,8 @@ const events = [
     time: "10:00 AM - 4:00 PM",
     venue: "Design Studio",
     teamSize: "Individual / Team of 2",
-    registrationLink: "https://forms.google.com/design-duel"
+    registrationLink: "https://forms.google.com/design-duel",
+    icon: "🎨"
   },
   {
     name: "Hackathon 24",
@@ -35,7 +38,8 @@ const events = [
     time: "12:00 PM onwards",
     venue: "Main Auditorium",
     teamSize: "Team of 3-5",
-    registrationLink: "https://forms.google.com/hackathon"
+    registrationLink: "https://forms.google.com/hackathon",
+    icon: "🚀"
   },
   {
     name: "Gaming Arena",
@@ -43,8 +47,9 @@ const events = [
     date: "March 17, 2025",
     time: "9:00 AM - 6:00 PM",
     venue: "Recreation Hall",
-    teamSize: "Individual / Team (varies by game)",
-    registrationLink: "https://forms.google.com/gaming"
+    teamSize: "Individual / Team (varies)",
+    registrationLink: "https://forms.google.com/gaming",
+    icon: "🎮"
   },
   {
     name: "Quiz Mania",
@@ -53,7 +58,8 @@ const events = [
     time: "2:00 PM - 4:00 PM",
     venue: "Conference Room A",
     teamSize: "Team of 3",
-    registrationLink: "https://forms.google.com/quiz"
+    registrationLink: "https://forms.google.com/quiz",
+    icon: "🧠"
   },
   {
     name: "Robotics Challenge",
@@ -62,7 +68,8 @@ const events = [
     time: "10:00 AM - 5:00 PM",
     venue: "Engineering Lab",
     teamSize: "Team of 2-4",
-    registrationLink: "https://forms.google.com/robotics"
+    registrationLink: "https://forms.google.com/robotics",
+    icon: "🤖"
   },
   {
     name: "Photography Walk",
@@ -71,7 +78,8 @@ const events = [
     time: "7:00 AM - 12:00 PM",
     venue: "Campus Grounds",
     teamSize: "Individual",
-    registrationLink: "https://forms.google.com/photography"
+    registrationLink: "https://forms.google.com/photography",
+    icon: "📸"
   }
 ];
 
@@ -80,25 +88,25 @@ const EventsSection = () => {
     <section id="events" className="py-24 md:py-32 relative">
       {/* Background decoration */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <div className="absolute top-0 right-0 w-96 h-96 bg-primary/5 rounded-full blur-[100px]" />
-        <div className="absolute bottom-0 left-0 w-80 h-80 bg-secondary/5 rounded-full blur-[80px]" />
+        <div className="absolute top-0 right-0 w-96 h-96 bg-primary/5 rounded-full blur-[120px]" />
+        <div className="absolute bottom-0 left-0 w-80 h-80 bg-secondary/5 rounded-full blur-[100px]" />
       </div>
       
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16">
-          <p className="text-sm uppercase tracking-[0.3em] text-primary mb-4">
+          <p className="text-xs uppercase tracking-[0.4em] text-primary/80 mb-3 font-medium">
             Explore
           </p>
-          <h2 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold mb-6 gradient-text">
+          <h2 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold mb-5 gradient-text">
             Our Events
           </h2>
-          <p className="text-muted-foreground max-w-2xl mx-auto">
-            Click on any event to reveal detailed information and register. 
-            Challenge yourself, showcase your talents, and win exciting prizes!
+          <p className="text-muted-foreground max-w-xl mx-auto text-sm md:text-base">
+            Tap any event to see details and register. Challenge yourself, 
+            showcase your talents, and win exciting prizes!
           </p>
         </div>
         
-        <div className="max-w-3xl mx-auto space-y-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 md:gap-5 max-w-7xl mx-auto">
           {events.map((event, index) => (
             <EventCard key={event.name} event={event} index={index} />
           ))}
