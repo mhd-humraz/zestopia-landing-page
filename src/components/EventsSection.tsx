@@ -4,7 +4,7 @@ const events = [
 {
   name: "Football 5s",
   description: "An electrifying 5-a-side football tournament where speed, teamwork, and strategy decide the champions. Bring your squad and dominate the turf!",
-  date: "March 15, 2025",
+  date: "April 18, 2026",
   time: "9:00 AM - 4:00 PM",
   venue: "College Ground",
   teamSize: "Team of 5 (+2 Substitutes)",
@@ -15,7 +15,7 @@ const events = [
 {
   name: "Basketball",
   description: "Fast breaks, slam dunks, and intense competition. Show your court skills and lead your team to victory in this high-energy basketball showdown.",
-  date: "March 15, 2025",
+  date: "April 18, 2026",
   time: "10:00 AM - 3:00 PM",
   venue: "College Basketball Court",
   teamSize: "Team of 5",
@@ -26,7 +26,7 @@ const events = [
 {
   name: "Clikathon (Photography)",
   description: "Capture the moment and tell a story through your lens. Compete to click the most creative and stunning photographs during the fest.",
-  date: "March 15, 2025",
+  date: "April 18, 2026",
   time: "10:00 AM - 2:00 PM",
   venue: "Campus Wide",
   teamSize: "Individual",
@@ -37,7 +37,7 @@ const events = [
 {
   name: "PUBG",
   description: "Battle it out in an intense survival showdown. Strategy, teamwork, and sharp reflexes will determine who gets the chicken dinner!",
-  date: "March 16, 2025",
+  date: "April 18, 2026",
   time: "11:00 AM - 3:00 PM",
   venue: "Computer Lab",
   teamSize: "Squad (4 Players)",
@@ -48,7 +48,7 @@ const events = [
 {
   name: "Free Fire",
   description: "Enter the arena and prove your dominance in this fast-paced battle royale tournament. Only one squad survives!",
-  date: "March 16, 2025",
+  date: "April 18, 2026",
   time: "10:00 AM - 2:00 PM",
   venue: "Computer Lab",
   teamSize: "Squad (4 Players)",
@@ -59,7 +59,7 @@ const events = [
 {
   name: "e-Football",
   description: "Virtual football at its finest! Compete in intense digital matches and showcase your tactical brilliance on the console.",
-  date: "March 16, 2025",
+  date: "April 18, 2026",
   time: "12:00 PM - 4:00 PM",
   venue: "Gaming Zone",
   teamSize: "Individual",
@@ -70,7 +70,7 @@ const events = [
 {
   name: "Softball Cricket",
   description: "A power-packed cricket tournament with thrilling matches and big hits. Gather your team and chase glory!",
-  date: "March 15, 2025",
+  date: "April 18, 2026",
   time: "9:00 AM - 4:00 PM",
   venue: "College Ground",
   teamSize: "Team of 7",
@@ -81,7 +81,7 @@ const events = [
 {
   name: "Badminton",
   description: "Smash, drop, and rally your way to victory in this exciting badminton competition.",
-  date: "March 16, 2025",
+  date: "April 18, 2026",
   time: "9:00 AM - 1:00 PM",
   venue: "Indoor Stadium",
   teamSize: "Singles / Doubles",
@@ -92,7 +92,7 @@ const events = [
 {
   name: "Shortflix (Reel Competition)",
   description: "Unleash your creativity and produce an engaging short film or reel. Impress the judges with storytelling, editing, and originality.",
-  date: "March 16, 2025",
+  date: "April 18, 2026",
   time: "Submission Based",
   venue: "Online Submission",
   teamSize: "Individual / Team",
@@ -103,7 +103,7 @@ const events = [
 {
   name: "Treasure Hunt",
   description: "Solve clues, crack codes, and race against time in this thrilling campus-wide treasure hunt adventure.",
-  date: "March 15, 2025",
+  date: "April 18, 2026",
   time: "2:00 PM - 4:00 PM",
   venue: "Campus Wide",
   teamSize: "Team of 3",
