@@ -1,8 +1,8 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
+import CountdownTimer from "@/components/CountdownTimer";
 import EventsSection from "@/components/EventsSection";
 import LocationSection from "@/components/LocationSection";
-import CountdownTimer from "@/components/CountdownTimer";
 import Footer from "@/components/Footer";
 
 const Index = () => {
