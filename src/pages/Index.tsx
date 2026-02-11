@@ -11,9 +11,9 @@ const Index = () => {
       <Header />
       <main>
         <Hero />
+        <CountdownTimer />
         <EventsSection />
         <LocationSection />
-        <CountdownTimer />
       </main>
       <Footer />
     </div>
