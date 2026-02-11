@@ -2,6 +2,7 @@ import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import EventsSection from "@/components/EventsSection";
 import LocationSection from "@/components/LocationSection";
+import CountdownTimer from "@/components/CountdownTimer";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -12,6 +13,7 @@ const Index = () => {
         <Hero />
         <EventsSection />
         <LocationSection />
+        <CountdownTimer />
       </main>
       <Footer />
     </div>
