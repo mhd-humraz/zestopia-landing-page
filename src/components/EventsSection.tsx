@@ -1,86 +1,115 @@
 import EventCard from "./EventCard";
 
 const events = [
-  {
-    name: "Code Quest",
-    description: "A thrilling competitive programming challenge where participants solve algorithmic problems under time pressure. Test your coding skills, problem-solving abilities, and compete for the top spot on the leaderboard.",
-    date: "March 15, 2025",
-    time: "10:00 AM - 1:00 PM",
-    venue: "Computer Lab 1 & 2",
-    teamSize: "Individual / Team of 2",
-    registrationLink: "https://forms.google.com/code-quest",
-    icon: "💻"
-  },
-  {
-    name: "Tech Talks",
-    description: "Present your innovative ideas and research to a panel of industry experts. Topics can range from AI and machine learning to sustainable technology and emerging tech trends.",
-    date: "March 15, 2025",
-    time: "2:00 PM - 5:00 PM",
-    venue: "Seminar Hall",
-    teamSize: "Individual",
-    registrationLink: "https://forms.google.com/tech-talks",
-    icon: "🎤"
-  },
-  {
-    name: "Design Duel",
-    description: "Showcase your UI/UX design prowess in this creative competition. Design stunning interfaces, solve real-world design challenges, and impress the judges with your aesthetic vision.",
-    date: "March 16, 2025",
-    time: "10:00 AM - 4:00 PM",
-    venue: "Design Studio",
-    teamSize: "Individual / Team of 2",
-    registrationLink: "https://forms.google.com/design-duel",
-    icon: "🎨"
-  },
-  {
-    name: "Hackathon 24",
-    description: "A 24-hour coding marathon where teams build innovative solutions to real-world problems. From ideation to implementation, showcase your ability to create functional prototypes under pressure.",
-    date: "March 16-17, 2025",
-    time: "12:00 PM onwards",
-    venue: "Main Auditorium",
-    teamSize: "Team of 3-5",
-    registrationLink: "https://forms.google.com/hackathon",
-    icon: "🚀"
-  },
-  {
-    name: "Gaming Arena",
-    description: "Compete in popular esports titles and prove your gaming supremacy. Categories include strategy games, FPS, and multiplayer battles. May the best gamer win!",
-    date: "March 17, 2025",
-    time: "9:00 AM - 6:00 PM",
-    venue: "Recreation Hall",
-    teamSize: "Individual / Team (varies)",
-    registrationLink: "https://forms.google.com/gaming",
-    icon: "🎮"
-  },
-  {
-    name: "Quiz Mania",
-    description: "Test your knowledge across technology, science, current affairs, and general knowledge in this exciting quiz competition. Fast fingers and sharp minds will prevail!",
-    date: "March 17, 2025",
-    time: "2:00 PM - 4:00 PM",
-    venue: "Conference Room A",
-    teamSize: "Team of 3",
-    registrationLink: "https://forms.google.com/quiz",
-    icon: "🧠"
-  },
-  {
-    name: "Robotics Challenge",
-    description: "Build, program, and battle robots in this hands-on engineering competition. Navigate obstacle courses, complete tasks, and demonstrate your robotics expertise.",
-    date: "March 18, 2025",
-    time: "10:00 AM - 5:00 PM",
-    venue: "Engineering Lab",
-    teamSize: "Team of 2-4",
-    registrationLink: "https://forms.google.com/robotics",
-    icon: "🤖"
-  },
-  {
-    name: "Photography Walk",
-    description: "Capture the essence of creativity through your lens. Participants will explore the campus and surroundings, telling stories through compelling photographs.",
-    date: "March 18, 2025",
-    time: "7:00 AM - 12:00 PM",
-    venue: "Campus Grounds",
-    teamSize: "Individual",
-    registrationLink: "https://forms.google.com/photography",
-    icon: "📸"
-  }
+{
+  name: "Football 5s",
+  description: "An electrifying 5-a-side football tournament where speed, teamwork, and strategy decide the champions. Bring your squad and dominate the turf!",
+  date: "March 15, 2025",
+  time: "9:00 AM - 4:00 PM",
+  venue: "College Ground",
+  teamSize: "Team of 5 (+2 Substitutes)",
+  registrationLink: "https://zestopiaevent.vercel.app/",
+  icon: "⚽"
+},
+
+{
+  name: "Basketball",
+  description: "Fast breaks, slam dunks, and intense competition. Show your court skills and lead your team to victory in this high-energy basketball showdown.",
+  date: "March 15, 2025",
+  time: "10:00 AM - 3:00 PM",
+  venue: "College Basketball Court",
+  teamSize: "Team of 5",
+  registrationLink: "https://zestopiaevent.vercel.app/",
+  icon: "🏀"
+},
+
+{
+  name: "Clikathon (Photography)",
+  description: "Capture the moment and tell a story through your lens. Compete to click the most creative and stunning photographs during the fest.",
+  date: "March 15, 2025",
+  time: "10:00 AM - 2:00 PM",
+  venue: "Campus Wide",
+  teamSize: "Individual",
+  registrationLink: "https://zestopiaevent.vercel.app/",
+  icon: "📸"
+},
+
+{
+  name: "PUBG",
+  description: "Battle it out in an intense survival showdown. Strategy, teamwork, and sharp reflexes will determine who gets the chicken dinner!",
+  date: "March 16, 2025",
+  time: "11:00 AM - 3:00 PM",
+  venue: "Computer Lab",
+  teamSize: "Squad (4 Players)",
+  registrationLink: "https://zestopiaevent.vercel.app/",
+  icon: "🎮"
+},
+
+{
+  name: "Free Fire",
+  description: "Enter the arena and prove your dominance in this fast-paced battle royale tournament. Only one squad survives!",
+  date: "March 16, 2025",
+  time: "10:00 AM - 2:00 PM",
+  venue: "Computer Lab",
+  teamSize: "Squad (4 Players)",
+  registrationLink: "https://zestopiaevent.vercel.app/",
+  icon: "🔥"
+},
+
+{
+  name: "e-Football",
+  description: "Virtual football at its finest! Compete in intense digital matches and showcase your tactical brilliance on the console.",
+  date: "March 16, 2025",
+  time: "12:00 PM - 4:00 PM",
+  venue: "Gaming Zone",
+  teamSize: "Individual",
+  registrationLink: "https://zestopiaevent.vercel.app/",
+  icon: "🎮"
+},
+
+{
+  name: "Softball Cricket",
+  description: "A power-packed cricket tournament with thrilling matches and big hits. Gather your team and chase glory!",
+  date: "March 15, 2025",
+  time: "9:00 AM - 4:00 PM",
+  venue: "College Ground",
+  teamSize: "Team of 7",
+  registrationLink: "https://zestopiaevent.vercel.app/",
+  icon: "🏏"
+},
+
+{
+  name: "Badminton",
+  description: "Smash, drop, and rally your way to victory in this exciting badminton competition.",
+  date: "March 16, 2025",
+  time: "9:00 AM - 1:00 PM",
+  venue: "Indoor Stadium",
+  teamSize: "Singles / Doubles",
+  registrationLink: "https://zestopiaevent.vercel.app/",
+  icon: "🏸"
+},
+
+{
+  name: "Shortflix (Reel Competition)",
+  description: "Unleash your creativity and produce an engaging short film or reel. Impress the judges with storytelling, editing, and originality.",
+  date: "March 16, 2025",
+  time: "Submission Based",
+  venue: "Online Submission",
+  teamSize: "Individual / Team",
+  registrationLink: "https://zestopiaevent.vercel.app/",
+  icon: "🎬"
+},
+
+{
+  name: "Treasure Hunt",
+  description: "Solve clues, crack codes, and race against time in this thrilling campus-wide treasure hunt adventure.",
+  date: "March 15, 2025",
+  time: "2:00 PM - 4:00 PM",
+  venue: "Campus Wide",
+  teamSize: "Team of 3",
+  registrationLink: "https://zestopiaevent.vercel.app/",
+  icon: "🗺️"
+}
 ];
 
 const EventsSection = () => {
