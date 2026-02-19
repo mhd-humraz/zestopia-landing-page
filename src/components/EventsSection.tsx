@@ -28,7 +28,7 @@ const events = [
     time: "10:00 AM - 2:00 PM",
     venue: "Campus Wide",
     teamSize: "Individual",
-    registrationLink: "https://zestopiaevent.vercel.app/",
+    registrationLink: "https://forms.gle/VxBg3pq1H9BSYHMY6",
     icon: "📸"
   },
   {
@@ -38,7 +38,7 @@ const events = [
     time: "11:00 AM - 3:00 PM",
     venue: "Computer Lab",
     teamSize: "Squad (4 Players)",
-    registrationLink: "https://zestopiaevent.vercel.app/",
+    registrationLink: "https://forms.gle/9nEyPABXj29ot7Vk7",
     icon: "🎮"
   },
   {
@@ -48,7 +48,7 @@ const events = [
     time: "10:00 AM - 2:00 PM",
     venue: "Computer Lab",
     teamSize: "Squad (4 Players)",
-    registrationLink: "https://zestopiaevent.vercel.app/",
+    registrationLink: "https://forms.gle/7iupRzqe2DmdrG9J7",
     icon: "🔥"
   },
   {
@@ -58,7 +58,7 @@ const events = [
     time: "12:00 PM - 4:00 PM",
     venue: "Gaming Zone",
     teamSize: "Individual",
-    registrationLink: "https://zestopiaevent.vercel.app/",
+    registrationLink: "https://forms.gle/GT68KR1D25Mjvh3B8",
     icon: "🎮"
   },
   {
@@ -100,77 +100,17 @@ const events = [
     teamSize: "Team of 3",
     registrationLink: "https://zestopiaevent.vercel.app/",
     icon: "🗺️"
-  },
-    {
-    name: "Single Dance",
-    description: "Showcase your talent and express yourself through an energetic and captivating solo dance performance.",
-    date: "April 18, 2026",
-    time: "10:00 AM - 12:00 PM",
-    venue: "Main Stage",
-    teamSize: "Single Participant",
-    registrationLink: "https://zestopiaevent.vercel.app/",
-    icon: "💃"
-  },
+  },  
   {
-    name: "Spot Dance",
-    description: "Hit the stage with spontaneous energy and impress the crowd with your instant dance moves.",
+    name: "Cultural Events",
+    description: "Single Dance, Group Dance, Spot Dance, Fancy Dress, Thematic Show, Group Song, Mapilapattu.",
     date: "April 18, 2026",
-    time: "12:00 PM - 1:00 PM",
-    venue: "Open Stage",
-    teamSize: "Single Participant",
-    registrationLink: "https://zestopiaevent.vercel.app/",
-    icon: "🔥"
-  },
-  {
-    name: "Fancy Dress",
-    description: "Dress up creatively and impress the audience with your costume, confidence, and presentation skills.",
-    date: "April 18, 2026",
-    time: "11:00 AM - 1:00 PM",
-    venue: "Auditorium",
-    teamSize: "Single Participant",
-    registrationLink: "https://zestopiaevent.vercel.app/",
+    time: "10:00 AM - 7:30 PM",
+    venue: "Main Stage & Auditorium",
+    teamSize: "Single & Group Events",
+    registrationLink: "https://forms.gle/v9csZFaBSqk59GPD7",
     icon: "🎭"
-  },
-  {
-    name: "Mapilapattu",
-    description: "Celebrate the beauty of traditional Mappila songs with soulful melodies and cultural rhythm.",
-    date: "April 18, 2026",
-    time: "1:00 PM - 2:30 PM",
-    venue: "Cultural Hall",
-    teamSize: "Single Participant",
-    registrationLink: "https://zestopiaevent.vercel.app/",
-    icon: "🎵"
-  },
-  {
-    name: "Group Song",
-    description: "Join voices with your team and deliver a harmonious and powerful musical performance.",
-    date: "April 18, 2026",
-    time: "3:00 PM - 4:30 PM",
-    venue: "Main Stage",
-    teamSize: "Team of 3-6",
-    registrationLink: "https://zestopiaevent.vercel.app/",
-    icon: "🎼"
-  },
-  {
-    name: "Group Dance",
-    description: "Bring energy, synchronization, and creativity to the stage with your dynamic team performance.",
-    date: "April 18, 2026",
-    time: "4:30 PM - 6:00 PM",
-    venue: "Main Stage",
-    teamSize: "Team of 4-8",
-    registrationLink: "https://zestopiaevent.vercel.app/",
-    icon: "🕺"
-  },
-  {
-    name: "Thematic Show",
-    description: "Present a creative and impactful performance based on a chosen theme through drama, dance, or storytelling.",
-    date: "April 18, 2026",
-    time: "6:00 PM - 7:30 PM",
-    venue: "Auditorium",
-    teamSize: "Team of 5-10",
-    registrationLink: "https://zestopiaevent.vercel.app/",
-    icon: "🎬"
-  }
+ }
 ];
 
 const EventsSection = () => {
