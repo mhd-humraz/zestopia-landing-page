@@ -98,7 +98,7 @@ const events = [
     time: "2:00 PM - 4:00 PM",
     venue: "Campus Wide",
     teamSize: "Team of 3",
-    registrationLink: "https://zestopiaevent.vercel.app/",
+    registrationLink: "https://forms.gle/n6449qiYjyrUJ9st5",
     icon: "🗺️"
   },  
   {
