@@ -8,7 +8,7 @@ const events = [
     time: "9:00 AM - 4:00 PM",
     venue: "College Ground",
     teamSize: "Team of 5 (+2 Substitutes)",
-    registrationLink: "https://zestopiaevent.vercel.app/",
+    registrationLink: "https://forms.gle/PzEx9Hmks356NaMn8",
     icon: "⚽"
   },
   {
@@ -18,7 +18,7 @@ const events = [
     time: "10:00 AM - 3:00 PM",
     venue: "College Basketball Court",
     teamSize: "Team of 5",
-    registrationLink: "https://zestopiaevent.vercel.app/",
+    registrationLink: "https://forms.gle/nFGEhToDPvpMPWpB6",
     icon: "🏀"
   },
   {
@@ -68,7 +68,7 @@ const events = [
     time: "9:00 AM - 4:00 PM",
     venue: "College Ground",
     teamSize: "Team of 7",
-    registrationLink: "https://zestopiaevent.vercel.app/",
+    registrationLink: "https://forms.gle/E7Vk5KQLZgsePvw4A",
     icon: "🏏"
   },
   {
@@ -78,7 +78,7 @@ const events = [
     time: "9:00 AM - 1:00 PM",
     venue: "Indoor Stadium",
     teamSize: "Singles / Doubles",
-    registrationLink: "https://zestopiaevent.vercel.app/",
+    registrationLink: "https://forms.gle/umKFETvV75QEYtWf6",
     icon: "🏸"
   },
   {
