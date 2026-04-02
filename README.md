@@ -1,73 +1,111 @@
-# Welcome to your Lovable project
+# 🚀 Zestopia Landing Page
 
-## Project info
+A modern, responsive, and visually engaging landing page built using **React + TypeScript**, focused on clean UI, reusable components, and smooth user experience.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+---
 
-## How can I edit this code?
+## 🌐 Live Demo
+*(Add your deployed link here — Vercel/Netlify)*
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## ✨ Features
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+- ⚡ Lightning-fast performance with Vite  
+- 🎨 Clean UI with reusable components  
+- 📱 Fully responsive design  
+- ⏳ Countdown timer for events  
+- 📍 Location section integration  
+- 🧩 Modular component structure  
+- 🧪 Basic testing setup (Vitest)  
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 🛠️ Tech Stack
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- ⚛️ React  
+- 🟦 TypeScript  
+- 🎨 Tailwind CSS  
+- ⚡ Vite  
+- 🧪 Vitest (Testing)  
+- 🧩 ShadCN UI  
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+## 📁 Project Structure
+```
+src/
+├── assets/ # Images and static files
+├── components/ # Reusable UI & feature components
+│ ├── ui/ # ShadCN UI components
+├── hooks/ # Custom React hooks
+├── lib/ # Utility functions
+├── pages/ # Page-level components
+├── test/ # Test files
+├── App.tsx
+├── main.tsx
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🧠 Key Components
 
-**Use GitHub Codespaces**
+- **Hero** → Landing section  
+- **Header / Navbar** → Navigation  
+- **EventsSection** → Event listing  
+- **EventCard** → Event UI  
+- **CountdownTimer** → Dynamic timer  
+- **LocationSection** → Location info  
+- **Footer** → Footer section  
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
+## 🚀 Getting Started
 
-This project is built with:
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/mhd-humraz/zestopia-landing-page.git
+```
+### 2️⃣ Navigate into the project
+```
+cd zestopia-landing-page
+```
+### 3️⃣ Install dependencies
+```
+npm install
+# or
+bun install
+```
+### 4️⃣ Run the development server
+```
+npm run dev
+```
+### 🧪 Running Tests
+~~~
+npm run test
+~~~
+###💡 What I Learned
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Building scalable React + TypeScript apps
+Creating reusable UI components
+Structuring frontend projects
+Using Tailwind CSS effectively
 
-## How can I deploy this project?
+- 📦 Future Improvements
+- 🌍 Backend integration
+- 🔐 Authentication
+- 📊 Admin dashboard
+- 🌐 SEO optimization
+- 🤝 Contributing
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+## Contributions are welcome!
+Feel free to fork this repo and submit a pull request.
 
-## Can I connect a custom domain to my Lovable project?
+👤 Author
 
-Yes, you can!
+Muhammed Humraz (Leo)
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+GitHub: https://github.com/mhd-humraz
+⭐ Support
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+If you like this project, give it a ⭐ on GitHub!
