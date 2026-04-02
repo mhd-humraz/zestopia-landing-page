@@ -5,7 +5,7 @@ A modern, responsive, and visually engaging landing page built using **React + T
 ---
 
 ## 🌐 Live Demo
-[ link here — )*
+[ link here
 ](https://zestopiaevent.vercel.app/)
 ---
 
