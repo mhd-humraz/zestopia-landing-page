@@ -87,8 +87,8 @@ const events = [
     date: "April 18, 2026",
     time: "Submission Based",
     venue: "Online Submission",
-    teamSize: "Individual / Team",
-    registrationLink: "https://zestopiaevent.vercel.app/",
+    teamSize: "Individual ",
+    registrationLink: "https://forms.gle/f1C9mqtAQ3gamY8H9",
     icon: "🎬"
   },
   {
